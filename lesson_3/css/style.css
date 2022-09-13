@@ -1,0 +1,32 @@
+.main-menu-item .main-menu-link,
+a.contents-link {
+   color: darkkhaki;
+}
+
+h1{
+   color: gold;
+}
+
+#contents {
+   color: mediumaquamarine;
+}
+
+.list-image {
+   width: 1000px;
+}
+
+.list-block h3 {
+   color: mediumturquoise;
+}
+
+.list * {
+   color: grey;
+}
+
+.code {
+   color: red;
+}
+
+.moto {
+   color:goldenrod
+}
