@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Tinos:ital,wght@0,400;0,700;1,400&family=Ubuntu&display=swap');
+
+@font-face {
+	font-family: "Preciosa";
+	src: url("../fonts/Preciosa.woff2") format("woff2"), url("../fonts/Preciosa.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.post {
+   font-family: 'Lato', sans-serif;
+   max-width: 810px;
+   margin: 0 auto 109px;
+}
+
+.post-header {
+   margin-top: 90px;
+   margin-bottom: 40px;
+}
+
+h1 {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 60px;
+   align-items: center;
+   color: #1E212C;
+}
+
+#post-illustration {
+   max-width: 100%;
+}
+
+#post-illustration ~ p,
+.post-list {
+   margin-bottom: 24px;
+}
+
+#post-illustration ~ p.different {
+   margin-bottom: 0;
+}
+
+#post-illustration ~ p.quote {
+   margin: 48px 0;
+   padding-left: 30px;
+}
+
+#post-illustration,
+#post-illustration ~ p.last {
+   margin-bottom: 60px;
+}
+
+.accent-text {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 30px;
+   color: #1E212C;
+}
+
+.usual-text,
+.post-list-options {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #424551;
+}
+
+.post-list-options {
+   margin-bottom: 4px;
+   padding-left: 16px;
+   list-style: inside;
+}
+
+hr {
+   border-style: inset;
+   border-width: 1px;
+   margin-bottom: 100px;
+}
+
+.news {
+   font-family: 'Preciosa';
+   max-width: 800px;
+   margin: 0 auto;
+   background-image: url('../images/leaves-bcg.jpg');
+}
+
+.news-header {
+   margin-bottom: 40px;
+   padding: 25px;
+   background: papayawhip url('../images/paper_bgr.jpg') center / 100px 200px;
+   outline: 10px double grey;
+}
+
+.news-title {
+   font-size: 160px;
+   text-align: center;
+   margin-bottom: 10px;
+}
+
+.news-title ~ p {
+   font-size: 25px;
+   text-align: right;
+}
+
+[class*="__block"] {
+   margin-bottom: 100px;
+   padding: 30px;
+}
+
+.news-1__block {
+   background: linear-gradient(90deg, rgba(0, 43, 36, 0.988) 0%, rgba(255,226,132,0.9374124649859944) 35%, rgba(255,19,0,1) 100%);
+   border: 2px solid #002b24fc;
+}
+
+.news-2__block {
+   background: papayawhip url('../images/paper_bgr_2.jpg') top / 150px auto;
+   border: 8px dotted grey;
+}
+
+.news-3__block {
+   background: papayawhip;
+   background-attachment: fixed;
+   border: 2px dashed #002b24fc;
+}
+
+.news-4__block {
+   background: papayawhip url('../images/yellow.jpg') bottom / contain repeat-y;
+   border: 2px solid transparent;
+}
+
+.news-text {
+   font-size: 40px;
+   text-align: center;
+}
